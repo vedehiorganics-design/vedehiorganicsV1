@@ -181,7 +181,7 @@ function App() {
             </div>
             <div>
               <h4 className="text-emerald-400 font-bold mb-2">For Order</h4>
-              <p className="text-gray-300">9168450500</p>
+              <p className="text-gray-300">9168450500, 7875067876</p>
             </div>
             <div>
               <h4 className="text-emerald-400 font-bold mb-2">Website</h4>
