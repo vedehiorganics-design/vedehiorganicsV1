@@ -168,8 +168,9 @@ function App() {
         </section>
       </main>
 
-      <footer className="bg-gray-900 text-white py-8 mt-20">
+      <footer className="bg-gray-900 text-white py-12 mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-emerald-400 text-lg font-bold mb-3">Happy Oyster</p>
           <p className="text-gray-300 mb-2 font-semibold">vedehiorganics.com</p>
           <p className="text-gray-400">Copyright 2025 Vedehi Organics. All rights reserved.</p>
         </div>
