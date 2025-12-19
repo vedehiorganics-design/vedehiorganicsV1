@@ -28,8 +28,8 @@ function App() {
           <div className="grid md:grid-cols-2 gap-8 items-center mb-20">
             <div>
               <img
-                src="https://images.pexels.com/photos/4551832/pexels-photo-4551832.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="Fresh White Oyster Mushrooms"
+                src="https://images.pexels.com/photos/28930875/pexels-photo-28930875.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Beautiful Oyster Mushrooms"
                 className="rounded-2xl shadow-2xl w-full h-96 object-cover"
               />
             </div>
