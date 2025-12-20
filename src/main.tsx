@@ -27,7 +27,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
 */
 
 import { ViteSSG } from "vite-ssg";
-import App from "./App";
+import App from "./App.tsx";
 import { routes } from "./routes";
 
 export const createApp = ViteSSG(
