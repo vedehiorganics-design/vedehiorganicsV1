@@ -7,11 +7,18 @@ export const createApp = ViteSSG(App, { routes });
 */
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
-import "./index.css";
+
+const Test = () => {
+  return (
+    <div style={{ padding: "40px", fontSize: "24px" }}>
+      ✅ React is rendering correctly
+    </div>
+  );
+};
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <App />
+    <Test />
   </React.StrictMode>
 );
+
