@@ -1,13 +1,25 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import prerender from "vite-plugin-prerender";
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
-  optimizeDeps: {
-    exclude: ['lucide-react'],
-  },
-  build: {
-    outDir: 'dist'
-  },
+  plugins: [
+    react(),
+    prerender({
+      routes: [
+        "/",          // Home
+      ],
+      renderer: "@prerenderer/renderer-react",
+      postProcess(renderedRoute) {
+        // Ensure clean URLs
+        if (renderedRoute.route.endsWith("/")) {
+          renderedRoute.html = renderedRoute.html.replace(
+            /<a href="\/index.html"/g,
+            '<a href="/"'
+          );
+        }
+        return renderedRoute;
+      }
+    })
+  ]
 });
