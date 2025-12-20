@@ -5,8 +5,8 @@ export default function Home() {
     <h1 className="sr-only">
         Farm Fresh Organic Oyster Mushrooms by Vedehi Organics
       </h1>
+    <header className="bg-white shadow-sm sticky top-0 z-50">
     <div className="min-h-screen bg-gradient-to-b from-emerald-50 to-white">
-      <header className="bg-white shadow-sm sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center gap-4">
             <img src="/vedehi_est2025.png" alt="Fresh organic oyster mushrooms grown at Vedehi Organics farm" className="w-20 h-20 object-contain" loading="lazy" />
