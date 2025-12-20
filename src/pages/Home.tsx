@@ -3,12 +3,10 @@ import { Leaf, Heart, Shield, Zap, Droplet, Sprout } from "lucide-react";
 export default function Home() {
   return (
     <>
-      {/* ✅ ONLY ONE H1 (SEO MASTER HEADING) */}
       <h1 className="sr-only">
         Farm Fresh Organic Oyster Mushrooms by Vedehi Organics
       </h1>
 
-      {/* HEADER */}
       <header className="bg-white shadow-sm sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center gap-4">
@@ -19,7 +17,6 @@ export default function Home() {
               loading="lazy"
             />
             <div>
-              {/* ❌ was h1 → ✅ h2 */}
               <h2 className="text-3xl font-bold text-gray-900">
                 Vedehi Organics
               </h2>
@@ -32,10 +29,8 @@ export default function Home() {
       </header>
 
       <main>
-        {/* HERO */}
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="text-center mb-12">
-            {/* ❌ was h1 → ✅ h2 */}
             <h2 className="text-5xl font-bold text-gray-900 mb-4">
               Premium Organic Oyster Mushrooms
             </h2>
@@ -66,7 +61,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* BENEFITS */}
         <section className="bg-white py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">
