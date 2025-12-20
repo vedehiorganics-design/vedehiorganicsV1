@@ -33,7 +33,5 @@ import { routes } from "./routes";
 export const createApp = ViteSSG(
   App,
   { routes },
-  ({ app }) => {
-    // app-level plugins if needed
-  }
+
 );
