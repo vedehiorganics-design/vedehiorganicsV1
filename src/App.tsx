@@ -1,6 +1,6 @@
 import { Leaf, Heart, Shield, Zap, Droplet, Sprout } from 'lucide-react';
 
-function App() {
+export default function App() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-emerald-50 to-white">
       <header className="bg-white shadow-sm sticky top-0 z-50">
