@@ -9,13 +9,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 
-const Test = () => {
-  return (
-    <div style={{ padding: "40px", fontSize: "24px" }}>
-      ✅ React is rendering correctly
-    </div>
-  );
-};
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
