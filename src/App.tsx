@@ -18,18 +18,18 @@ function App() {
       <main>
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="text-center mb-12">
-            <h2 className="text-5xl font-bold text-gray-900 mb-4">Premium Oyster Mushrooms</h2>
+            <h1 className="text-5xl font-bold text-gray-900 mb-4">Premium Organic Oyster Mushrooms</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Discover the incredible taste and health benefits of our organically grown oyster mushrooms.
-              Nature's superfood, cultivated with care.
+              Nature's superfood, cultivated with care for your wellness.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 items-center mb-20">
             <div>
               <img
-                src="https://images.pexels.com/photos/28930875/pexels-photo-28930875.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="Beautiful Oyster Mushrooms"
+                src="https://images.pexels.com/photos/6157027/pexels-photo-6157027.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Fresh white oyster mushrooms on beige background"
                 className="rounded-2xl shadow-2xl w-full h-96 object-cover"
               />
             </div>
@@ -45,7 +45,7 @@ function App() {
 
         <section className="bg-white py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h3 className="text-4xl font-bold text-center text-gray-900 mb-16">Health Benefits</h3>
+            <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">Health Benefits of Oyster Mushrooms</h2>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-gradient-to-br from-emerald-50 to-teal-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
@@ -101,7 +101,7 @@ function App() {
 
         <section className="py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h3 className="text-4xl font-bold text-center text-gray-900 mb-16">Nutritional Value</h3>
+            <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">Nutritional Value of Oyster Mushrooms</h2>
 
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
@@ -113,7 +113,7 @@ function App() {
               </div>
 
               <div className="bg-white p-8 rounded-2xl shadow-xl">
-                <h4 className="text-2xl font-bold text-gray-900 mb-6">Per 100g Serving</h4>
+                <h3 className="text-2xl font-bold text-gray-900 mb-6">Nutritional Information Per 100g Serving</h3>
                 <div className="space-y-4">
                   <div className="flex justify-between items-center pb-4 border-b border-gray-200">
                     <span className="text-lg font-semibold text-gray-700">Calories</span>
@@ -121,7 +121,7 @@ function App() {
                   </div>
 
                   <div className="flex justify-between items-center pb-4 border-b border-gray-200">
-                    <span className="text-lg font-semibold text-gray-700">Protein</span>
+                    <span className="text-lg font-semibold text-gray-700">Plant-Based Protein</span>
                     <span className="text-2xl font-bold text-emerald-600">3.3g</span>
                   </div>
 
