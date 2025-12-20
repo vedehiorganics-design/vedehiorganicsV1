@@ -8,7 +8,7 @@ createRoot(document.getElementById('root')!).render(
     <App />
   </StrictMode>
 );
-*/
+-------------
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
@@ -23,4 +23,17 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       </BrowserRouter>
     </HelmetProvider>
   </React.StrictMode>
+);
+*/
+
+import { ViteSSG } from "vite-plugin-ssg";
+import App from "./App";
+import { routes } from "./routes";
+
+export const createApp = ViteSSG(
+  App,
+  { routes },
+  ({ app }) => {
+    // app-level plugins if needed
+  }
 );
