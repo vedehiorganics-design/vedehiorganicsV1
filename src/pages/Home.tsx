@@ -6,7 +6,7 @@ export default function Home() {
           <header className="bg-white shadow-sm sticky top-0 z-50">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
                   <div className="flex items-center gap-4">
-                      <img src="./vedehi_est2025.webp" alt="Vedehi Organics Logo" className="w-20 h-20 object-contain" />
+                      <img src="./vedehi_est2025.webp" alt="Organic oyster mushrooms grown naturally at Vedehi Organics farm" className="w-20 h-20 object-contain" />
                       <div>
                           <h1 className="text-3xl font-bold text-gray-900">Vedehi Organics</h1>
                           <p className="text-sm text-emerald-600 font-semibold">Happy Oyster</p>
@@ -29,15 +29,15 @@ export default function Home() {
                       <div>
                           <img
                               src="./oyster-mushroom-1296x728.webp"
-                              alt="Fresh white oyster mushrooms on beige background"
+                              alt="Organic oyster mushrooms grown naturally at Vedehi Organics farm"
                               className="rounded-2xl shadow-2xl w-full h-96 object-cover"
                           />
                       </div>
                       <div className="space-y-6">
                           <h3 className="text-3xl font-bold text-gray-900">Why Choose Oyster Mushrooms?</h3>
                           <p className="text-gray-600 text-lg leading-relaxed">
-                              Oyster mushrooms are not just delicious, they're packed with nutrients that support your overall health.
-                              Their delicate, slightly sweet flavor and velvety texture make them perfect for any cuisine.
+                                Oyster mushrooms are a popular edible mushroom variety valued for their delicate texture and nutritional richness. They are widely used in healthy cooking and are an excellent alternative to meat due to their plant-based protein content.
+                                Oyster mushrooms are naturally low in calories and high in fiber, making them suitable for weight management and everyday meals.
                           </p>
                       </div>
                   </div>
@@ -107,7 +107,7 @@ export default function Home() {
                           <div>
                               <img
                                   src="./pexels-photo-1092730.webp"
-                                  alt="Nutrition and Healthy Food"
+                                  alt="Organic oyster mushrooms grown naturally at Vedehi Organics farm"
                                   className="rounded-2xl shadow-2xl w-full h-full object-cover"
                               />
                           </div>
@@ -165,10 +165,45 @@ export default function Home() {
                           </div>
                       </div>
 
-                      <div className="text-center mt-16">
-                          <p className="animated-tagline text-emerald-600 text-4xl font-bold italic">Happy Oyster</p>
+                     
+                  </div>
+              </section>
+
+
+              <section className="bg-white py-20">
+                  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                      <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">Why "Vedehi Organics"?</h2>
+
+                      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                          <div className="bg-gradient-to-br from-emerald-50 to-teal-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
+                              <Heart className="w-12 h-12 text-emerald-600 mb-4" />
+                              <h4 className="text-2xl font-bold text-gray-900 mb-3">Organic</h4>
+                              <p className="text-gray-600 leading-relaxed">
+Organic oyster mushrooms are grown without synthetic pesticides, chemical fertilizers, or growth hormones. This ensures cleaner food, better nutrition, and improved safety. At Vedehi Organics, we follow chemical-free cultivation methods that protect both consumer health and the environment.
+                              </p>
+                          </div>
+
+                          <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
+                              <Shield className="w-12 h-12 text-blue-600 mb-4" />
+                              <h4 className="text-2xl font-bold text-gray-900 mb-3">Our Sustainable Farming Practices</h4>
+                              <p className="text-gray-600 leading-relaxed">
+                       Vedehi Organics follows a farm-to-table philosophy focused on sustainability, hygiene, and quality. Our oyster mushrooms are cultivated under controlled conditions using natural substrates and eco-friendly processes. Each harvest is carefully monitored to ensure freshness, consistency, and nutritional value.
+
+                              </p>
+                          </div>
+
+                          <div className="bg-gradient-to-br from-orange-50 to-amber-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
+                              <Zap className="w-12 h-12 text-orange-600 mb-4" />
+                              <h4 className="text-2xl font-bold text-gray-900 mb-3">Choose Healthy, Choose Vedehi Organics</h4>
+                              <p className="text-gray-600 leading-relaxed">
+If you are looking for fresh organic oyster mushrooms grown naturally in India, Vedehi Organics is your trusted source. Experience the taste, nutrition, and purity of farm fresh mushrooms and make a healthier choice for your family.
+                              </p>
+                          </div>
                       </div>
                   </div>
+                   <div className="text-center mt-16">
+                          <p className="animated-tagline text-emerald-600 text-4xl font-bold italic">Happy Oyster</p>
+                      </div>
               </section>
           </main>
 
