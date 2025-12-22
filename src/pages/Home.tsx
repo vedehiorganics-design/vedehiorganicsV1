@@ -6,7 +6,7 @@ export default function Home() {
           <header className="bg-white shadow-sm sticky top-0 z-50">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
                   <div className="flex items-center gap-4">
-                      <img src="./public/vedehi_est2025.webp" alt="Vedehi Organics Logo" className="w-20 h-20 object-contain" />
+                      <img src="./vedehi_est2025.webp" alt="Vedehi Organics Logo" className="w-20 h-20 object-contain" />
                       <div>
                           <h1 className="text-3xl font-bold text-gray-900">Vedehi Organics</h1>
                           <p className="text-sm text-emerald-600 font-semibold">Happy Oyster</p>
@@ -28,7 +28,7 @@ export default function Home() {
                   <div className="grid md:grid-cols-2 gap-8 items-center mb-20">
                       <div>
                           <img
-                              src="./public/oyster-mushroom-1296x728.webp"
+                              src="./oyster-mushroom-1296x728.webp"
                               alt="Fresh white oyster mushrooms on beige background"
                               className="rounded-2xl shadow-2xl w-full h-96 object-cover"
                           />
@@ -106,7 +106,7 @@ export default function Home() {
                       <div className="grid lg:grid-cols-2 gap-12 items-center">
                           <div>
                               <img
-                                  src="./public/pexels-photo-1092730.webp"
+                                  src="./pexels-photo-1092730.webp"
                                   alt="Nutrition and Healthy Food"
                                   className="rounded-2xl shadow-2xl w-full h-full object-cover"
                               />
