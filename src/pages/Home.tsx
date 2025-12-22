@@ -6,7 +6,7 @@ export default function Home() {
           <header className="bg-white shadow-sm sticky top-0 z-50">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
                   <div className="flex items-center gap-4">
-                      <img src="/vedehi_est2025.png" alt="Vedehi Organics Logo" className="w-20 h-20 object-contain" />
+                      <img src="/vedehi_est2025.webp" alt="Vedehi Organics Logo" className="w-20 h-20 object-contain" />
                       <div>
                           <h1 className="text-3xl font-bold text-gray-900">Vedehi Organics</h1>
                           <p className="text-sm text-emerald-600 font-semibold">Happy Oyster</p>
