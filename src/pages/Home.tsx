@@ -164,8 +164,6 @@ export default function Home() {
                               </div>
                           </div>
                       </div>
-
-                     
                   </div>
               </section>
 
@@ -202,10 +200,38 @@ If you are looking for fresh organic oyster mushrooms grown naturally in India, 
                           </div>
                       </div>
                   </div>
-                   <div className="text-center mt-16">
+                    <div className="text-center mt-16">
                           <p className="animated-tagline text-emerald-600 text-4xl font-bold italic">Happy Oyster</p>
-                      </div>
+                    </div>
               </section>
+            <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+                <div className="text-left mb-12">
+                    <h2 className="text-3xl font-bold text-gray-900">About Us</h2>
+                </div>
+
+                  <div className="grid md:grid-cols-2 gap-8 items-center mb-20 custom-grid">
+                      <div className="custom-width">
+                          <img
+                             src="./two_friends.png"
+                                  alt="Organic oyster mushrooms grown naturally at Vedehi Organics farm"
+                              className="rounded-2xl shadow-2xl w-full h-96 object-cover"
+                          />
+                      </div>
+                      <div className="space-y-6 custom-space">
+                          <p className="text-gray-600 text-lg leading-relaxed">
+                               Vedehi Organics was founded by two friends brought together by a shared passion for organic farming and healthy food.
+                                What began as curiosity about clean, sustainable agriculture soon turned into a committed journey toward growing food the right way — naturally, responsibly, and honestly.
+                                <br></br><br></br>
+                                To build a strong foundation, Our grower are <b>"ICAR Certified, Oyster and Milky Mushroom Production Technology - Pune Agriculture College".</b>
+                                <br></br><br></br>
+                                We believe that healthy food is not a luxury, but a necessity, and that true nutrition starts at the farm.
+                                With this belief at the core, we chose to focus on mushroom cultivation — a food that is naturally nutritious, sustainable,
+                                 and ideal for modern, health-conscious lifestyles.
+                           </p>
+                      </div>
+                  </div>
+              </section>
+               
           </main>
 
           <footer className="bg-gray-900 text-white py-12 mt-20">

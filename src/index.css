@@ -23,3 +23,15 @@
 .animated-tagline {
   animation: shimmer 2s ease-in-out infinite, glow 3s ease-in-out infinite;
 }
+
+.custom-width {
+  width: 20%;
+}
+
+.custom-grid {
+  display: flex;
+}
+
+.custom-space {
+  width: 60%;
+}
