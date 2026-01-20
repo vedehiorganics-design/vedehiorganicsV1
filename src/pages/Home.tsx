@@ -294,7 +294,7 @@ If you are looking for fresh organic oyster mushrooms grown naturally in India, 
                           <div className="bg-gradient-to-br from-emerald-50 to-teal-50 p-8 rounded-2xl shadow-lg max-w-sm">
                               <div className="mb-6">
                                   <a
-                                      href="https://instagram.com/vedehiorganics"
+                                      href="https://instagram.com/vedehi_organics"
                                       target="_blank"
                                       rel="noopener noreferrer"
                                       className="inline-block hover:scale-105 transition-transform"
@@ -312,12 +312,12 @@ If you are looking for fresh organic oyster mushrooms grown naturally in India, 
                               <div className="text-center">
                                   <p className="text-gray-700 font-semibold mb-2">Scan to Follow</p>
                                   <a
-                                      href="https://instagram.com/vedehiorganics"
+                                      href="https://instagram.com/vedehi_organics"
                                       target="_blank"
                                       rel="noopener noreferrer"
                                       className="text-emerald-600 hover:text-emerald-700 font-bold text-lg transition-colors"
                                   >
-                                      @vedehiorganics
+                                      @vedehi_organics
                                   </a>
                               </div>
                           </div>
