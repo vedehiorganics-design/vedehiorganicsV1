@@ -247,6 +247,83 @@ If you are looking for fresh organic oyster mushrooms grown naturally in India, 
                       </div>
                   </div>
               </section>
+
+              <section className="bg-gradient-to-b from-emerald-50 to-white py-20">
+                  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                      <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
+                          <div className="space-y-6">
+                              <h2 className="text-3xl font-bold text-gray-900">Locate Us</h2>
+                              <p className="text-gray-600 text-lg leading-relaxed">
+                                  Visit us to see our oyster mushroom farm and learn about our sustainable farming practices. We welcome visitors who are passionate about organic food and sustainable agriculture.
+                              </p>
+                              <a
+                                  href="https://share.google/i8GaGxWq7hxbXgp1d"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors"
+                                  aria-label="View Vedehi Organics location on Google Maps"
+                              >
+                                  View on Google Maps
+                              </a>
+                          </div>
+                          <div>
+                              <iframe
+                                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000!2d73.1234567!3d19.0123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b0000000000%3A0x0000000000000000!2sVedehi%20Organics!5e0!3m2!1sen!2sin!4v1234567890"
+                                  width="100%"
+                                  height="400"
+                                  style={{ border: 0, borderRadius: '1rem' }}
+                                  allowFullScreen
+                                  loading="lazy"
+                                  referrerPolicy="no-referrer-when-downgrade"
+                                  title="Vedehi Organics location map"
+                                  className="rounded-2xl shadow-lg"
+                              ></iframe>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+
+              <section className="bg-white py-20">
+                  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                      <div className="text-center mb-12">
+                          <h2 className="text-3xl font-bold text-gray-900 mb-4">Follow Us</h2>
+                          <p className="text-gray-600 text-lg">Connect with us on Instagram for recipes, farm updates, and organic living tips</p>
+                      </div>
+
+                      <div className="flex justify-center">
+                          <div className="bg-gradient-to-br from-emerald-50 to-teal-50 p-8 rounded-2xl shadow-lg max-w-sm">
+                              <div className="mb-6">
+                                  <a
+                                      href="https://instagram.com/vedehiorganics"
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="inline-block hover:scale-105 transition-transform"
+                                      aria-label="Scan to follow Vedehi Organics on Instagram"
+                                  >
+                                      <img
+                                          src="./vedehi_insta.png"
+                                          alt="Instagram QR code for Vedehi Organics - Scan to follow us"
+                                          className="w-72 h-72 rounded-lg shadow-lg"
+                                          width="288"
+                                          height="288"
+                                      />
+                                  </a>
+                              </div>
+                              <div className="text-center">
+                                  <p className="text-gray-700 font-semibold mb-2">Scan to Follow</p>
+                                  <a
+                                      href="https://instagram.com/vedehiorganics"
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="text-emerald-600 hover:text-emerald-700 font-bold text-lg transition-colors"
+                                  >
+                                      @vedehiorganics
+                                  </a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </section>
               </article>
           </main>
 
