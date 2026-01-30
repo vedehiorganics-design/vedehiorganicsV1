@@ -223,11 +223,11 @@ If you are looking for fresh organic oyster mushrooms grown naturally in India, 
                 </div>
 
                   <div className="grid md:grid-cols-2 gap-8 items-center mb-20">
-                      <div>
+                      <div className="flex justify-center">
                           <img
                              src="./two_friends.webp"
                                   alt="Founders of Vedehi Organics - Two friends passionate about organic mushroom farming in India"
-                              className="rounded-2xl shadow-2xl w-full h-96 object-cover"
+                              className="rounded-2xl shadow-2xl w-full max-w-md h-auto object-contain"
                               loading="lazy"
                               width="800"
                               height="600"
@@ -355,8 +355,28 @@ If you are looking for fresh organic oyster mushrooms grown naturally in India, 
                           <p className="text-gray-300">vedehiorganics.com</p>
                       </div>
                   </div>
-                  <div className="border-t border-gray-700 pt-8 text-center">
-                      <p className="text-gray-400">Copyright 2025 Vedehi Organics. All rights reserved.</p>
+                  <div className="border-t border-gray-700 pt-8">
+                      <div className="flex flex-col md:flex-row items-center justify-between gap-4 mb-6">
+                          <div className="text-center md:text-left">
+                              <h4 className="text-emerald-400 font-bold mb-2">FSSAI License</h4>
+                              <div className="flex items-center gap-4">
+                                  <img
+                                      src="./fssai.webp"
+                                      alt="FSSAI License - Food Safety and Standards Authority of India certification"
+                                      className="w-20 h-20 object-contain"
+                                      width="80"
+                                      height="80"
+                                  />
+                                  <div className="text-gray-300 text-sm">
+                                      <p className="font-semibold text-gray-200">Registration Number:</p>
+                                      <p>21526036000045</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div className="text-center border-t border-gray-700 pt-6">
+                          <p className="text-gray-400">Copyright 2025 Vedehi Organics. All rights reserved.</p>
+                      </div>
                   </div>
               </div>
           </footer>
