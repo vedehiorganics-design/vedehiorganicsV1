@@ -273,6 +273,39 @@ If you are looking for fresh organic oyster mushrooms grown naturally in India, 
                   </div>
               </section>
 
+              <section className="bg-gray-50 py-20">
+                  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                      <div className="mb-12">
+                          <h2 className="text-3xl font-bold text-gray-900 mb-8">Our Clients</h2>
+                          <div className="overflow-x-auto scrollbar-hide">
+                              <div className="flex gap-8 pb-4 min-w-min">
+                                  <div className="flex-shrink-0 w-48 h-48">
+                                      <img
+                                          src="./tcw.jpg"
+                                          alt="TCW Client - Vedehi Organics partner"
+                                          className="w-full h-full object-cover rounded-2xl shadow-lg hover:shadow-xl transition-shadow"
+                                          loading="lazy"
+                                          width="192"
+                                          height="192"
+                                      />
+                                  </div>
+                                  <div className="flex-shrink-0 w-48 h-48">
+                                      <img
+                                          src="./july+7.jpg"
+                                          alt="July 7 Client - Vedehi Organics partner"
+                                          className="w-full h-full object-cover rounded-2xl shadow-lg hover:shadow-xl transition-shadow"
+                                          loading="lazy"
+                                          width="192"
+                                          height="192"
+                                      />
+                                  </div>
+                              </div>
+                          </div>
+                          <p className="text-gray-600 text-sm mt-4">Scroll to see more clients</p>
+                      </div>
+                  </div>
+              </section>
+
               <section className="bg-white py-20">
                   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                       <div className="text-center mb-12">
