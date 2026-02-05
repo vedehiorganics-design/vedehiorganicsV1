@@ -219,12 +219,12 @@ If you are looking for fresh organic oyster mushrooms grown naturally in India, 
                     <h2 className="text-3xl font-bold text-gray-900">About Us</h2>
                 </div>
 
-                  <div className="grid md:grid-cols-2 gap-8 items-center mb-20">
-                      <div className="flex justify-center">
+                  <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
+                      <div className="flex justify-center order-first md:order-first">
                           <img
                              src="./two_friends.webp"
                                   alt="Founders of Vedehi Organics - Two friends passionate about organic mushroom farming in India"
-                              className="rounded-2xl shadow-2xl w-full max-w-md h-auto object-contain"
+                              className="rounded-2xl shadow-2xl w-full max-w-sm h-auto object-contain"
                               loading="lazy"
                               width="800"
                               height="600"
