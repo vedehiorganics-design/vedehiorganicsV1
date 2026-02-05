@@ -311,7 +311,7 @@ If you are looking for fresh organic oyster mushrooms grown naturally in India, 
                           <p className="text-gray-600 text-lg">Connect with us on Instagram for recipes, farm updates, and organic living tips</p>
                       </div>
 
-                      <div className="flex justify-center">
+                      <div className="flex justify-center gap-8 flex-wrap">
                           <div className="bg-gradient-to-br from-emerald-50 to-teal-50 p-8 rounded-2xl shadow-lg max-w-sm">
                               <div className="mb-6">
                                   <a
@@ -331,7 +331,7 @@ If you are looking for fresh organic oyster mushrooms grown naturally in India, 
                                   </a>
                               </div>
                               <div className="text-center">
-                                  <p className="text-gray-700 font-semibold mb-2">Scan to Follow</p>
+                                  <p className="text-gray-700 font-semibold mb-2">Follow Us</p>
                                   <a
                                       href="https://instagram.com/vedehi_organics"
                                       target="_blank"
@@ -339,6 +339,36 @@ If you are looking for fresh organic oyster mushrooms grown naturally in India, 
                                       className="text-emerald-600 hover:text-emerald-700 font-bold text-lg transition-colors"
                                   >
                                       @vedehi_organics
+                                  </a>
+                              </div>
+                          </div>
+                          <div className="bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-2xl shadow-lg max-w-sm">
+                              <div className="mb-6">
+                                  <a
+                                      href="https://www.youtube.com/playlist?list=PLwyOhqaF7XZ7TZPZ1VZ_K-Hdt1xoXNMZT"
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="inline-block hover:scale-105 transition-transform"
+                                      aria-label="Scan to view Vedehi Organics recipes playlist"
+                                  >
+                                      <img
+                                          src="./vedehi_recipes_playlist_qr.png"
+                                          alt="Recipes playlist QR code for Vedehi Organics - Scan to watch cooking videos"
+                                          className="w-72 h-72 rounded-lg shadow-lg"
+                                          width="288"
+                                          height="288"
+                                      />
+                                  </a>
+                              </div>
+                              <div className="text-center">
+                                  <p className="text-gray-700 font-semibold mb-2">Recipes & Tips</p>
+                                  <a
+                                      href="https://www.youtube.com/playlist?list=PLwyOhqaF7XZ7TZPZ1VZ_K-Hdt1xoXNMZT"
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="text-amber-600 hover:text-amber-700 font-bold text-lg transition-colors"
+                                  >
+                                      Watch Recipes
                                   </a>
                               </div>
                           </div>
