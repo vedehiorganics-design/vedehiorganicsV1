@@ -126,41 +126,41 @@ export default function Home() {
                           </div>
 
                           <div className="bg-white p-8 rounded-2xl shadow-xl">
-                              <h3 className="text-2xl font-bold text-gray-900 mb-6">Nutritional Information Per 100g Serving</h3>
+                              <h3 className="text-2xl font-bold text-gray-900 mb-6">Nutritional Value(dry weigth basis g/100g)</h3>
                               <div className="space-y-4">
                                   <div className="flex justify-between items-center pb-4 border-b border-gray-200">
                                       <span className="text-lg font-semibold text-gray-700">Calories</span>
-                                      <span className="text-2xl font-bold text-emerald-600">33 kcal</span>
+                                      <span className="text-2xl font-bold text-emerald-600">412 kcal</span>
                                   </div>
 
                                   <div className="flex justify-between items-center pb-4 border-b border-gray-200">
                                       <span className="text-lg font-semibold text-gray-700">Plant-Based Protein</span>
-                                      <span className="text-2xl font-bold text-emerald-600">3.3g</span>
+                                      <span className="text-2xl font-bold text-emerald-600">19.23g</span>
                                   </div>
 
                                   <div className="flex justify-between items-center pb-4 border-b border-gray-200">
                                       <span className="text-lg font-semibold text-gray-700">Carbohydrates</span>
-                                      <span className="text-2xl font-bold text-emerald-600">6.1g</span>
+                                      <span className="text-2xl font-bold text-emerald-600">41g</span>
                                   </div>
 
                                   <div className="flex justify-between items-center pb-4 border-b border-gray-200">
                                       <span className="text-lg font-semibold text-gray-700">Dietary Fiber</span>
-                                      <span className="text-2xl font-bold text-emerald-600">2.3g</span>
+                                      <span className="text-2xl font-bold text-emerald-600">46.6g</span>
                                   </div>
 
                                   <div className="flex justify-between items-center pb-4 border-b border-gray-200">
                                       <span className="text-lg font-semibold text-gray-700">Fat</span>
-                                      <span className="text-2xl font-bold text-emerald-600">0.4g</span>
+                                      <span className="text-2xl font-bold text-emerald-600">0.5g</span>
                                   </div>
 
                                   <div className="flex justify-between items-center pb-4 border-b border-gray-200">
-                                      <span className="text-lg font-semibold text-gray-700">Vitamin D</span>
-                                      <span className="text-2xl font-bold text-emerald-600">0.2µg</span>
+                                      <span className="text-lg font-semibold text-gray-700">Vitamin D(IU/100g)</span>
+                                      <span className="text-2xl font-bold text-emerald-600">178mg/100gµg</span>
                                   </div>
 
                                   <div className="flex justify-between items-center pb-4 border-b border-gray-200">
                                       <span className="text-lg font-semibold text-gray-700">Iron</span>
-                                      <span className="text-2xl font-bold text-emerald-600">1.3mg</span>
+                                      <span className="text-2xl font-bold text-emerald-600">6.5g</span>
                                   </div>
 
                                   <div className="flex justify-between items-center">
