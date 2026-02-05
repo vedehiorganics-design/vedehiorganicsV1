@@ -381,21 +381,7 @@ If you are looking for fresh organic oyster mushrooms grown naturally in India, 
           <footer className="bg-gray-900 text-white py-12 mt-20">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                   <div className="grid md:grid-cols-4 gap-8 mb-8 text-center md:text-left">
-                            <div>
-                                <h3 className="text-emerald-400 font-bold mb-2 text-lg">Recipes</h3>
-                                <p>
-                                    <a
-                                        href="https://youtube.com/playlist?list=PLuVjRcLYIQxKc8YeAJpSSJi_PYKvYvjcY&si=RspR7OfOUhtvnXaM"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="text-gray-300 hover:text-emerald-400 transition-colors"
-                                        aria-label="Watch oyster mushroom recipes on YouTube"
-                                    >
-                                    Oyster Mushroom Recipes
-                                    </a>
-                                </p>
-                            </div>
-
+                    
                       <div>
                           <h3 className="text-emerald-400 font-bold mb-2 text-lg">Contact Us</h3>
                           <p className="text-gray-300">
