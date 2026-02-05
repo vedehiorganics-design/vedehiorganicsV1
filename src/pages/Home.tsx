@@ -245,7 +245,7 @@ If you are looking for fresh organic oyster mushrooms grown naturally in India, 
                   </div>
               </section>
 
-              <section className="bg-gradient-to-b from-emerald-50 to-white py-20">
+              <section className="bg-gradient-to-b from-emerald-50 to-white py-16">
                   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                       <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
                           <div className="space-y-6">
@@ -270,7 +270,7 @@ If you are looking for fresh organic oyster mushrooms grown naturally in India, 
                   </div>
               </section>
 
-              <section className="bg-gray-50 py-20">
+              <section className="bg-gray-50 py-16">
                   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                       <div className="text-center mb-12">
                           <h2 className="text-3xl font-bold text-gray-900 mb-8">Our Clients</h2>
@@ -304,7 +304,7 @@ If you are looking for fresh organic oyster mushrooms grown naturally in India, 
                   </div>
               </section>
 
-              <section className="bg-white py-20">
+              <section className="bg-white py-16">
                   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                       <div className="text-center mb-12">
                           <h2 className="text-3xl font-bold text-gray-900 mb-4">Follow Us</h2>
