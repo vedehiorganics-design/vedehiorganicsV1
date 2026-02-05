@@ -375,7 +375,7 @@ If you are looking for fresh organic oyster mushrooms grown naturally in India, 
                           </p>
                       </div>
                       <div>
-                          <h3 className="text-emerald-400 font-bold mb-2 text-lg">Order Now</h3>
+                          <h3 className="text-emerald-400 font-bold mb-2 text-lg">Home Delivery</h3>
                           <p className="text-gray-300">
                               <a href="tel:+919168450500" className="hover:text-emerald-400 transition-colors">9168450500</a>,
                               <a href="tel:+917875067876" className="hover:text-emerald-400 transition-colors ml-1">7875067876</a>
