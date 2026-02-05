@@ -155,7 +155,7 @@ export default function Home() {
 
                                   <div className="flex justify-between items-center pb-4 border-b border-gray-200">
                                       <span className="text-lg font-semibold text-gray-700">Vitamin D(IU/100g)</span>
-                                      <span className="text-2xl font-bold text-emerald-600">178mg/100gµg</span>
+                                      <span className="text-2xl font-bold text-emerald-600">178mg/100g</span>
                                   </div>
 
                                   <div className="flex justify-between items-center pb-4 border-b border-gray-200">
