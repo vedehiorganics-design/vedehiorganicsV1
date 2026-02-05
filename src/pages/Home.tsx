@@ -126,7 +126,7 @@ export default function Home() {
                           </div>
 
                           <div className="bg-white p-8 rounded-2xl shadow-xl">
-                              <h3 className="text-2xl font-bold text-gray-900 mb-6">Nutritional Value(dry weigth basis g/100g)</h3>
+                              <h3 className="text-2xl font-bold text-gray-900 mb-6">Nutritional Value(dry weight basis g/100g)</h3>
                               <div className="space-y-4">
                                   <div className="flex justify-between items-center pb-4 border-b border-gray-200">
                                       <span className="text-lg font-semibold text-gray-700">Calories</span>
