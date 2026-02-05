@@ -163,10 +163,7 @@ export default function Home() {
                                       <span className="text-2xl font-bold text-emerald-600">6.5g</span>
                                   </div>
 
-                                  <div className="flex justify-between items-center">
-                                      <span className="text-lg font-semibold text-gray-700">Potassium</span>
-                                      <span className="text-2xl font-bold text-emerald-600">420mg</span>
-                                  </div>
+                                
                               </div>
 
                               <div className="mt-8 p-4 bg-emerald-50 rounded-lg">
