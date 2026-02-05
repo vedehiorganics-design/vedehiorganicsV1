@@ -215,22 +215,20 @@ If you are looking for fresh organic oyster mushrooms grown naturally in India, 
                     </div>
               </section>
             <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-                <div className="text-left mb-12">
-                    <h2 className="text-3xl font-bold text-gray-900">About Us</h2>
-                </div>
+                <h2 className="text-3xl font-bold text-gray-900 mb-12">About Us</h2>
 
-                  <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
-                      <div className="flex justify-center order-first md:order-first">
+                  <div className="grid md:grid-cols-3 gap-8 items-start mb-20">
+                      <div className="flex justify-start">
                           <img
                              src="./two_friends.webp"
                                   alt="Founders of Vedehi Organics - Two friends passionate about organic mushroom farming in India"
-                              className="rounded-2xl shadow-2xl w-full max-w-sm h-auto object-contain"
+                              className="rounded-2xl shadow-2xl w-full max-w-xs h-auto object-contain"
                               loading="lazy"
                               width="800"
                               height="600"
                           />
                       </div>
-                      <div className="space-y-6">
+                      <div className="md:col-span-2 space-y-6">
                           <p className="text-gray-600 text-lg leading-relaxed">
                                Vedehi Organics was founded by two friends brought together by a shared passion for organic farming and healthy food.
                                 What began as curiosity about clean, sustainable agriculture soon turned into a committed journey toward growing food the right way — naturally, responsibly, and honestly.
